@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}
+contact
+{% endblock %}
+{% block content %}
+
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> City Hospital</title>
+
+</head>
+
+<body>
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{% static '/images/about.jpg/' %}" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container text-success">
+              <h1>
+                We Are Here For You..<br>
+              </h1>
+            </div>
+            <br>
+            <br>
+            <div class="container mx-10 text-info">
+                         
+                <h2>0891-0974-0923</h2><br>
+                <h2>0891-3245-0923</h2><br>
+                <h2>0891-0974-4567</h2><br>
+                <h2>Email : cityhospital@gmail.com</h2>
+
+
+            
+            </div>
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
+
+
+{% endblock %}
